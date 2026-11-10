@@ -1,11 +1,11 @@
 
-# 📘 Assignment: Games in Python
+# 📘 Atividade: Jogos em Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
 Pratique strings, listas, condicionais, loops e entrada de dados criando um jogo da Forca em que a pessoa tenta descobrir uma palavra oculta antes de ficar sem tentativas.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Implementar o Jogo da Forca
 
