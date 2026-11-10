@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Games in Python
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique strings, listas, condicionais, loops e entrada de dados criando um jogo da Forca em que a pessoa tenta descobrir uma palavra oculta antes de ficar sem tentativas.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar o Jogo da Forca
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie uma versão jogável da Forca no terminal. O programa deve escolher uma palavra de uma lista predefinida e permitir que a pessoa tente adivinhá-la, uma letra por vez.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Mostrar as letras descobertas e representar as letras ainda ocultas por `_`.
+- Solicitar palpites até que a palavra seja descoberta ou o limite de tentativas incorretas seja atingido.
+- Diminuir o número de tentativas restantes somente quando o palpite não estiver na palavra.
+- Exibir uma mensagem de vitória com a palavra descoberta ou uma mensagem de derrota com a palavra correta.
+
+### 🛠️ Validar os Palpites
+
+#### Descrição
+Melhore a interação do jogo validando as entradas e mantendo o controle das letras que já foram tentadas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar apenas um único caractere alfabético por palpite e pedir uma nova entrada quando ela for inválida.
+- Informar quando a pessoa repetir uma letra já tentada, sem descontar uma tentativa.
+- Exibir as letras já tentadas a cada rodada.
+- Tratar letras maiúsculas e minúsculas como o mesmo palpite.
